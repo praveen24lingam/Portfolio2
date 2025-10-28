@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | Praveen</title>
+  <link rel="stylesheet" href="style.css" />
+   <style>
+    .services-section {
+    padding: 6rem 9%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    color: #b74b4b;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.service-card {
+    background-color: #1a1a1a;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 15px rgba(183, 75, 75, 0.2);
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #b74b4b;
+}
+
+.service-card h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+   </style>
+  <link rel="stylesheet" href="services.css" />
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Praveen</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+
+      <a href="services.html" class="active">Services</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <!-- <a href="experience.html">Experience</a> -->
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services-section fade-in">
+    <h2 class="section-title">🛠️ My Services</h2>
+    <div class="services-container">
+
+      <div class="service-card">
+        <i class="fas fa-code service-icon"></i>
+        <h3>Web Development</h3>
+        <p>Responsive and modern websites using HTML, CSS, JavaScript, and React.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-paint-brush service-icon"></i>
+        <h3>UI/UX Design</h3>
+        <p>Clean and intuitive designs that deliver seamless user experiences.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-wrench service-icon"></i>
+        <h3>Bug Fixing</h3>
+        <p>Quick identification and resolution of frontend issues and bugs.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-mobile-alt service-icon"></i>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first design that works beautifully on all screen sizes.</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
